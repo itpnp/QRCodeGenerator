@@ -1,0 +1,2919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="612" pageHeight="1008" columnWidth="503" leftMargin="56" rightMargin="53" topMargin="20" bottomMargin="13" uuid="5b1defd8-3b9b-4eae-b6ea-ac7476869763">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="495"/>
+	<parameter name="qrCode_0" class="java.lang.String"/>
+	<parameter name="productName" class="java.lang.String"/>
+	<parameter name="client" class="java.lang.String"/>
+	<parameter name="number" class="java.lang.String"/>
+	<parameter name="qty" class="java.lang.String"/>
+	<parameter name="type" class="java.lang.String"/>
+	<parameter name="numerator_0" class="java.lang.String"/>
+	<parameter name="map" class="java.util.Map" isForPrompting="false">
+		<parameterDescription><![CDATA[]]></parameterDescription>
+	</parameter>
+	<parameter name="qrCode_1" class="java.lang.String"/>
+	<parameter name="numerator_1" class="java.lang.String"/>
+	<parameter name="qrCode_2" class="java.lang.String"/>
+	<parameter name="numerator_2" class="java.lang.String"/>
+	<parameter name="qrCode_3" class="java.lang.String"/>
+	<parameter name="numerator_3" class="java.lang.String"/>
+	<parameter name="qrCode_4" class="java.lang.String"/>
+	<parameter name="numerator_4" class="java.lang.String"/>
+	<parameter name="qrCode_5" class="java.lang.String"/>
+	<parameter name="numerator_5" class="java.lang.String"/>
+	<parameter name="qrCode_6" class="java.lang.String"/>
+	<parameter name="numerator_6" class="java.lang.String"/>
+	<parameter name="qrCode_7" class="java.lang.String"/>
+	<parameter name="numerator_7" class="java.lang.String"/>
+	<parameter name="qrCode_8" class="java.lang.String"/>
+	<parameter name="numerator_8" class="java.lang.String"/>
+	<parameter name="qrCode_9" class="java.lang.String"/>
+	<parameter name="numerator_9" class="java.lang.String"/>
+	<parameter name="qrCode_10" class="java.lang.String"/>
+	<parameter name="numerator_10" class="java.lang.String"/>
+	<parameter name="qrCode_11" class="java.lang.String"/>
+	<parameter name="numerator_11" class="java.lang.String"/>
+	<parameter name="qrCode_12" class="java.lang.String"/>
+	<parameter name="numerator_12" class="java.lang.String"/>
+	<parameter name="qrCode_13" class="java.lang.String"/>
+	<parameter name="numerator_13" class="java.lang.String"/>
+	<parameter name="qrCode_14" class="java.lang.String"/>
+	<parameter name="numerator_14" class="java.lang.String"/>
+	<parameter name="qrCode_15" class="java.lang.String"/>
+	<parameter name="numerator_15" class="java.lang.String"/>
+	<parameter name="qrCode_16" class="java.lang.String"/>
+	<parameter name="numerator_16" class="java.lang.String"/>
+	<parameter name="qrCode_17" class="java.lang.String"/>
+	<parameter name="numerator_17" class="java.lang.String"/>
+	<parameter name="qrCode_18" class="java.lang.String"/>
+	<parameter name="numerator_18" class="java.lang.String"/>
+	<parameter name="qrCode_19" class="java.lang.String"/>
+	<parameter name="numerator_19" class="java.lang.String"/>
+	<parameter name="qrCode_20" class="java.lang.String"/>
+	<parameter name="numerator_20" class="java.lang.String"/>
+	<parameter name="qrCode_21" class="java.lang.String"/>
+	<parameter name="numerator_21" class="java.lang.String"/>
+	<parameter name="qrCode_22" class="java.lang.String"/>
+	<parameter name="numerator_22" class="java.lang.String"/>
+	<parameter name="qrCode_23" class="java.lang.String"/>
+	<parameter name="numerator_23" class="java.lang.String"/>
+	<parameter name="qrCode_24" class="java.lang.String"/>
+	<parameter name="numerator_24" class="java.lang.String"/>
+	<parameter name="qrCode_25" class="java.lang.String"/>
+	<parameter name="numerator_25" class="java.lang.String"/>
+	<parameter name="qrCode_26" class="java.lang.String"/>
+	<parameter name="numerator_26" class="java.lang.String"/>
+	<parameter name="qrCode_27" class="java.lang.String"/>
+	<parameter name="numerator_27" class="java.lang.String"/>
+	<parameter name="qrCode_28" class="java.lang.String"/>
+	<parameter name="numerator_28" class="java.lang.String"/>
+	<parameter name="qrCode_29" class="java.lang.String"/>
+	<parameter name="numerator_29" class="java.lang.String"/>
+	<parameter name="qrCode_30" class="java.lang.String"/>
+	<parameter name="numerator_30" class="java.lang.String"/>
+	<parameter name="qrCode_31" class="java.lang.String"/>
+	<parameter name="numerator_31" class="java.lang.String"/>
+	<parameter name="qrCode_32" class="java.lang.String"/>
+	<parameter name="numerator_32" class="java.lang.String"/>
+	<parameter name="qrCode_33" class="java.lang.String"/>
+	<parameter name="numerator_33" class="java.lang.String"/>
+	<parameter name="qrCode_34" class="java.lang.String"/>
+	<parameter name="numerator_34" class="java.lang.String"/>
+	<parameter name="qrCode_35" class="java.lang.String"/>
+	<parameter name="numerator_35" class="java.lang.String"/>
+	<parameter name="qrCode_36" class="java.lang.String"/>
+	<parameter name="numerator_36" class="java.lang.String"/>
+	<parameter name="qrCode_37" class="java.lang.String"/>
+	<parameter name="numerator_37" class="java.lang.String"/>
+	<parameter name="qrCode_38" class="java.lang.String"/>
+	<parameter name="numerator_38" class="java.lang.String"/>
+	<parameter name="qrCode_39" class="java.lang.String"/>
+	<parameter name="numerator_39" class="java.lang.String"/>
+	<parameter name="qrCode_40" class="java.lang.String"/>
+	<parameter name="numerator_40" class="java.lang.String"/>
+	<parameter name="qrCode_41" class="java.lang.String"/>
+	<parameter name="numerator_41" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="950" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="71" height="150" uuid="2a82f25c-5877-4611-a03a-0adac0858101"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="71" y="0" width="71" height="150" uuid="609a2f5d-75a7-4655-a43a-d80cdfae0d30"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="142" y="0" width="71" height="150" uuid="5c67d421-e1ec-4677-bed4-d4378d6f6e2b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="213" y="0" width="71" height="150" uuid="95a78c13-57cf-4c10-b3da-e2b1844fe78e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="284" y="0" width="71" height="150" uuid="2dbb4d8a-6a70-4620-a44b-5a4f778a5921"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="355" y="0" width="71" height="150" uuid="7e39e1d5-3e2e-4679-ab64-ad2107bc9b08"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="426" y="0" width="71" height="150" uuid="4094a6ca-a475-4258-a513-2741c8bf5c62"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="284" y="300" width="71" height="150" uuid="3fe859f5-b108-434b-87f5-1160653c06e8"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="426" y="300" width="71" height="150" uuid="e477644b-3a39-4ebd-b58c-b9542cda291e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="142" y="300" width="71" height="150" uuid="2619824b-ddac-4f2f-9978-dbbe6354f63c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="355" y="300" width="71" height="150" uuid="b532abaa-a4cc-4136-a85a-aaa94925adda"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="213" y="300" width="71" height="150" uuid="d4a83092-6587-404e-8411-3d3b4f6aaa06"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="71" y="300" width="71" height="150" uuid="d6a0488b-6217-49e7-9836-a011570e13bd"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="300" width="71" height="150" uuid="cfe1f0a3-02c3-4143-88ed-3ebbd60bde55"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="71" y="150" width="71" height="150" uuid="566ed36a-ec7a-4449-9582-9cef23c1d1f5"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="213" y="150" width="71" height="150" uuid="c98b6a2e-38b4-44d0-bb2c-6e3111939641"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="142" y="150" width="71" height="150" uuid="ecf2242c-9b8e-4a28-b47e-fd31e553692f"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="284" y="150" width="71" height="150" uuid="b1321b01-c9fd-481c-a1b9-5abb2b9165c5"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="426" y="150" width="71" height="150" uuid="d794ca7e-c193-4699-a485-06be4908d24f"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="150" width="71" height="150" uuid="3422cd6c-70c2-488a-9be7-7bc17b6edc37"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="355" y="150" width="71" height="150" uuid="3353efe2-6cea-4142-bf7f-40557a04b064"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="71" y="450" width="71" height="150" uuid="a4b08a4a-c729-4071-be33-cc3e62b2bdc7"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="213" y="450" width="71" height="150" uuid="56c558cb-e4f3-4b6f-be51-d62ca087ec1a"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="142" y="450" width="71" height="150" uuid="f605f7f5-13c8-4a12-a230-5267245b5e94"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="284" y="450" width="71" height="150" uuid="41047db6-57d4-44c3-bf0c-c5de7d18a253"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="450" width="71" height="150" uuid="45203b61-3d16-4fbd-aed6-7d9a908cb13c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="355" y="450" width="71" height="150" uuid="d146aea3-4c9a-4873-a359-54a2a062d129"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="426" y="450" width="71" height="150" uuid="cf402e89-87ea-43f5-bd58-ab543c7a4b65"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="71" y="600" width="71" height="150" uuid="5d9c71ae-3973-4ded-9966-34bea88343f4"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="142" y="600" width="71" height="150" uuid="8a42b477-b27b-485e-894f-013788880055"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="600" width="71" height="150" uuid="5ca00555-68e2-44c3-9ad4-8ec215cea8c2"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="284" y="600" width="71" height="150" uuid="f65803bf-f9e6-44ee-9c8b-53db8b84f760"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="213" y="600" width="71" height="150" uuid="109a7b18-8b37-4a40-82e8-45f4f1956762"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="426" y="600" width="71" height="150" uuid="adb35725-1e5b-4ee2-86b6-9dd277fcefc2"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="355" y="600" width="71" height="150" uuid="86de6b55-3a21-48cc-a51f-2674bfd70c83"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="213" y="750" width="71" height="150" uuid="f5adcf4f-787f-492e-9da3-19aa242ad583"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="71" y="750" width="71" height="150" uuid="73f5ec45-ef23-40f8-8f65-55e1e68c9bcf"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="284" y="750" width="71" height="150" uuid="5825a0ab-38e6-461c-afa1-a557cbc3a65b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="750" width="71" height="150" uuid="16f1efe2-c25d-484d-9fd8-48ab20c82428"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="142" y="750" width="71" height="150" uuid="e2b527d7-cd6d-4b78-b021-9991fd27eb73"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="355" y="750" width="71" height="150" uuid="ce5085f0-6c54-4523-9db6-9367838d96d7"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="426" y="750" width="71" height="150" uuid="49aa2d92-9a17-41a2-8cee-d2d8eaaf012d"/>
+			</rectangle>
+			<image>
+				<reportElement x="40" y="43" width="30" height="30" uuid="68750ca3-b921-47c8-b1d9-60aa7aef74ab"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_0},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="2" y="105" width="30" height="30" uuid="b1080b6a-7276-4050-be9c-e57e4fd4bffe"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_0},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="111" y="43" width="30" height="30" uuid="5648cbc8-15bb-4b8a-bc5a-687d69a82b4b"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_1},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="73" y="105" width="30" height="30" uuid="7ab8d7a6-a8f2-4ed1-b276-434002975716"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_1},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="182" y="43" width="30" height="30" uuid="88092faf-3bba-4088-886d-9a2c4da1c9a5"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_2},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="144" y="105" width="30" height="30" uuid="b375ef30-eda5-4b88-91e8-5f92bbf5cedb"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_2},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="253" y="43" width="30" height="30" uuid="93a1b185-7fae-4fb5-884a-61bc3a1c2779"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_3},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="215" y="105" width="30" height="30" uuid="ff0d9e36-2bc8-42fc-8e4e-efa698b52faf"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_3},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="324" y="43" width="30" height="30" uuid="52efdd6b-4ece-4e1d-b8ec-dc09b2df194c"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_4},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="286" y="105" width="30" height="30" uuid="bc11cf21-d946-4541-9cba-28360469132c"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_4},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="395" y="43" width="30" height="30" uuid="c627dc6b-4127-4d24-a0b2-cf2f5f5d2e3f"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_5},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="357" y="105" width="30" height="30" uuid="45694291-9690-4bb8-ba03-5531ff72c4ab"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_5},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="466" y="43" width="30" height="30" uuid="1e199678-1f53-4587-9d5c-9552120b43b8"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_6},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="428" y="105" width="30" height="30" uuid="2eada5e1-573f-4ba7-836c-d7b032fb5869"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_6},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="3" y="25" width="67" height="9" uuid="21946e34-314d-45b7-aca9-e47561fcdbd3"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_0}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="34" width="67" height="10" uuid="b53c362a-424b-4fa9-bb87-3d0a1afe818b"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="87" width="65" height="18" uuid="f6524865-da70-4205-951a-611e30f23152"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="39" y="115" width="29" height="7" uuid="bf0c4a21-f917-45be-9628-f80463b1cb85"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="137" width="37" height="7" uuid="098d614d-1762-4532-9737-912a152472f5"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_0}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="52" width="40" height="6" uuid="955d0514-fb2c-4df5-a5ed-795eae13ca83"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="59" width="36" height="6" uuid="9943f505-87dc-4460-8655-5748f1450ce6"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="3" y="46" width="36" height="6" uuid="8f3e1911-08ee-4631-b6f5-015b64bc9136"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="111" y="115" width="29" height="7" uuid="18bb292a-6a3d-46c3-8478-62e663955cce"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="52" width="40" height="6" uuid="c1880ec3-3909-4d6c-af92-8028955bf39a"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="25" width="67" height="9" uuid="e1ce0d80-a86d-450a-922d-034ae8dd055f"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="75" y="137" width="37" height="7" uuid="13f12aae-36a9-4c27-9ebf-1196c4262bc3"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="59" width="36" height="6" uuid="4be3ffae-19cc-4321-a734-e696499fb6b8"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="34" width="67" height="10" uuid="96f6bc9d-64bf-4ed6-83f2-0d927d9aefba"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="87" width="65" height="18" uuid="0e195e1b-ae85-471e-9862-cd9c847783d1"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="74" y="46" width="36" height="6" uuid="82d6a34b-61aa-47ff-86ab-efb4efe9864b"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="182" y="115" width="29" height="7" uuid="07ad83c0-31b7-4f5e-9d19-a3d46c69baf7"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="146" y="137" width="37" height="7" uuid="e6ad7353-3c69-40c5-a99d-90ba80dc8a16"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="25" width="67" height="9" uuid="c7682e22-6ee9-4a36-8561-30bcfea52392"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_2}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="145" y="46" width="36" height="6" uuid="29bbc7d6-a997-4261-a045-a06e6a0707c4"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="145" y="87" width="65" height="18" uuid="229ba1c6-e706-4dad-b8d8-059ce4162d2c"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="34" width="67" height="10" uuid="67c9854d-a502-48a0-94f3-3cfc8f1afd65"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="59" width="36" height="6" uuid="913f1975-d0dc-46e7-b9ec-ca58df8c44a3"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="52" width="40" height="6" uuid="ab20c088-819c-4b6b-add8-95f43315a247"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="253" y="115" width="29" height="7" uuid="3ce85c67-18f7-4136-bb14-c84481b9af44"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="217" y="137" width="37" height="7" uuid="58a96100-b403-46da-9a21-7e22291ee888"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="25" width="67" height="9" uuid="2fd3a55d-66c7-4fd6-b484-dd06d4d32481"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_3}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="216" y="46" width="36" height="6" uuid="2dec0647-6b69-421a-a407-eab0c758c510"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="216" y="87" width="65" height="18" uuid="a8e28c00-5996-4c43-9f52-1e924cb2cdb2"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="34" width="67" height="10" uuid="81e2bfeb-356f-4c2b-b948-dbe5d6b356ce"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="59" width="36" height="6" uuid="629a0b19-fb27-4283-9215-5acdcf82a66f"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="52" width="40" height="6" uuid="fcbc5a3f-b281-4c88-a903-1d4b210a3244"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="34" width="67" height="10" uuid="90d2a458-6a59-47f7-8918-c1e3431ee2b8"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="25" width="67" height="9" uuid="045af31f-3f66-4686-822d-1a5c7e7dfad5"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="59" width="36" height="6" uuid="cc487b6d-9b4b-4823-97d6-190bfb0b929e"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="87" width="65" height="18" uuid="779de394-dd97-449f-9157-c030797215ff"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="52" width="40" height="6" uuid="01c9715d-0396-4726-898b-24c5c3dcefac"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="287" y="46" width="36" height="6" uuid="5b327a37-cb15-4182-803f-1eb6e4d29691"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="287" y="137" width="37" height="7" uuid="1774851d-f4af-4af2-a6b3-35888110266d"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="323" y="115" width="29" height="7" uuid="7f9f7244-5069-4d44-b130-008d3b1d9b52"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="34" width="67" height="10" uuid="8abbc4d6-87a0-486a-ad4b-f7849570a894"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="25" width="67" height="9" uuid="17e8183e-fb7b-405b-8387-dcef80218517"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="59" width="36" height="6" uuid="032a811e-c8f4-41f7-9d24-1308df371bf0"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="87" width="65" height="18" uuid="46f79010-b971-4c6e-a295-22817765be31"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="52" width="40" height="6" uuid="08c921f4-3c71-4e92-af6b-dd422b30f230"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="137" width="37" height="7" uuid="ae72b053-6b03-4226-aa74-83feb07fee2d"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="395" y="115" width="29" height="7" uuid="b9eb395c-5c01-4bff-a126-fe0ed5924c9e"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="358" y="46" width="36" height="6" uuid="156e0628-3730-4d67-8b42-163b1ad02710"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="429" y="52" width="40" height="6" uuid="8e6def44-74cd-4f56-a7ea-47fcf3c6c236"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="25" width="67" height="9" uuid="53799057-7a8f-49fb-aca3-99838698293c"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_6}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="466" y="115" width="29" height="7" uuid="b1f389e0-45f0-4095-b03f-7ebfadf82772"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="137" width="37" height="7" uuid="c8dc321a-ffb1-4739-a8e9-bba91a6703ef"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_6}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="429" y="46" width="36" height="6" uuid="90c4def9-ffb4-4876-a338-41d7e481415a"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="429" y="59" width="36" height="6" uuid="7ac48134-0d3d-416f-ac25-e5e6b8519cc4"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="87" width="65" height="18" uuid="33dd8ea3-07a7-45e7-aef5-611ef88c1d56"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="34" width="67" height="10" uuid="86cb1333-8be8-4dd6-9725-11bfbed5964b"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="40" y="193" width="30" height="30" uuid="270d27c1-8a49-4f49-8902-5aa8be7f9af0"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_7},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="2" y="255" width="30" height="30" uuid="45ee0298-a2d4-4560-984b-3518045b58a2"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_7},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="111" y="193" width="30" height="30" uuid="513d272b-b606-409b-9861-c0d663f31683"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_8},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="73" y="255" width="30" height="30" uuid="10ecfa70-ba45-4004-a979-02bf813e6c12"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_8},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="182" y="193" width="30" height="30" uuid="e8de2cab-dec4-42ce-be66-0de91884289e"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_9},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="144" y="255" width="30" height="30" uuid="0dd334b6-bc51-46c0-a9bb-bfbe0bbce14e"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_9},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="253" y="193" width="30" height="30" uuid="a6f85e31-927a-4ac6-8a29-5193185d72d5"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_10},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="215" y="255" width="30" height="30" uuid="0c1142a4-f9f0-49bb-a22f-db0e94d526a2"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_10},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="324" y="193" width="30" height="30" uuid="93fa9ed1-1718-4826-9371-f8d13cd8017f"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_11},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="286" y="255" width="30" height="29" uuid="c9990eb3-808e-4994-90b2-bb31b2146a97"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_11},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="395" y="193" width="30" height="30" uuid="ff89f725-1691-432a-a20e-9f3e2134a01f"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_12},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="357" y="255" width="30" height="30" uuid="6257d253-3b57-42b3-8fb8-3cbebb09bf15"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_12},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="466" y="193" width="30" height="30" uuid="8d5dab08-bab7-4e56-9712-b4bfc5b0997c"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_13},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="428" y="255" width="27" height="28" uuid="045d3b2d-7b57-4cfe-a8d3-493cbdeae47e"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_13},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="3" y="237" width="65" height="18" uuid="6d051848-dda5-4a5d-8124-c8d3cc47d014"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="184" width="67" height="10" uuid="a5a935f0-4750-477b-8dda-91b2a91578c6"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="39" y="266" width="29" height="7" uuid="51a70a9e-bc35-4870-9bc7-b196ed16bbe1"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="201" width="40" height="6" uuid="c33fa531-fc3f-4340-8060-053b063b11ee"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="208" width="36" height="6" uuid="9f33e3cf-5e79-44b3-9edf-6cf32a57daef"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="287" width="37" height="7" uuid="7a30eb90-61cf-4dc4-ae14-e5b02562f77d"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_7}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="3" y="195" width="36" height="6" uuid="d4a239b3-526d-4c6c-94a5-f7cf1809e447"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="3" y="175" width="67" height="9" uuid="21a86ad9-4f18-4f10-b6b6-a38d3ccb8cbf"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_7}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="175" width="67" height="9" uuid="850451aa-a192-4d1f-821e-3fa36b28b01c"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_8}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="287" width="37" height="7" uuid="a1e658c5-1a4d-43d8-bd85-49064948bd9c"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_8}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="184" width="67" height="10" uuid="52b2abc8-4015-47c6-afe6-7410970d7c96"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="208" width="36" height="6" uuid="38046e81-cb76-4507-9b77-e20c3fe90d7a"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="237" width="65" height="18" uuid="0b171478-c680-4d06-b7f8-9fbeaeb6e2fa"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="74" y="195" width="36" height="6" uuid="5f8bdb9e-390b-400c-aba4-1bc5520bb9da"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="111" y="266" width="29" height="7" uuid="8e1bca21-7159-4098-a6cf-42a05880ce47"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="201" width="40" height="6" uuid="52b72536-ef60-48fa-abb6-81adf8e81b35"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="287" width="37" height="7" uuid="ed367b7a-2802-4190-984a-8dc4d93a15c4"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_9}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="175" width="67" height="9" uuid="1340cf32-3d6b-41eb-b417-a7beceacd080"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_9}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="237" width="65" height="18" uuid="d6d5f2f6-cafb-4fa3-9cfc-015c2675b4b6"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="208" width="36" height="6" uuid="b2fe99a1-0299-46c1-bdcd-b9bbbd05b323"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="145" y="195" width="36" height="6" uuid="bfb6a3ba-efa9-43ba-badc-bf4e21f0900a"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="181" y="266" width="29" height="7" uuid="33b4072b-5319-495b-94c7-6733b1a0f221"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="201" width="40" height="6" uuid="be8288a7-059e-4455-9c7e-74354a8d103f"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="184" width="67" height="10" uuid="a6980798-c31c-4213-916f-9d5e43f94879"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="175" width="67" height="9" uuid="5cceacf2-e41d-497c-8db3-64a5085beb33"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_10}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="216" y="195" width="36" height="6" uuid="3692ebc7-d016-4773-8134-6037816916a2"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="216" y="287" width="37" height="7" uuid="d437354a-85ac-4fc5-a088-4fe42bcba58f"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_10}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="208" width="36" height="6" uuid="6554548d-9145-4660-94ef-e06f30f77e54"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="201" width="40" height="6" uuid="a2442582-2a96-4557-b633-5e729aee5d42"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="184" width="67" height="10" uuid="0ff9c653-3c71-404e-a3d1-f2954a77dc92"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="237" width="65" height="18" uuid="4028493c-3a1a-433f-97d3-f30c91945d66"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="253" y="266" width="29" height="7" uuid="5d32a2a9-aaf4-428d-ae4b-cb1cdde0b484"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="287" y="195" width="36" height="6" uuid="2defe131-f865-48b1-80f0-9539bd34b799"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="287" y="201" width="40" height="6" uuid="c291d37d-b0da-4b6b-aca1-02347d01e66f"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="323" y="266" width="29" height="7" uuid="03c317dc-f6e5-403e-814d-4baff25754e6"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="287" width="37" height="7" uuid="7c4ab874-2e0c-4f07-942e-f5de1db74941"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_11}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="175" width="67" height="9" uuid="260fbf66-e335-411d-87d6-0eca35a86d72"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_11}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="237" width="65" height="18" uuid="89a8aab6-ab66-4837-b5ea-6897ccb6644d"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="208" width="36" height="6" uuid="39b8d491-792c-4079-b034-2f17fdb10a7c"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="184" width="67" height="10" uuid="c3792743-7bd9-47ec-8703-4c8fd80f53b4"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="201" width="40" height="6" uuid="5693f98d-98ad-4683-b9f9-df3920fbbef1"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="358" y="195" width="36" height="6" uuid="8fb5b054-a9d5-40a9-ae99-3f9aeaca4d3e"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="358" y="208" width="36" height="6" uuid="d4f5c121-bd7e-45a2-9d32-5a68337a047d"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="184" width="67" height="10" uuid="ace7606e-d6d2-49b8-886c-a25eadf3416e"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="287" width="37" height="7" uuid="687a4fb4-9fe1-4a3a-b386-5f2768a839f2"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_12}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="394" y="266" width="29" height="7" uuid="8f3b6c8e-94ff-4949-856e-76aae8a03de4"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="237" width="65" height="18" uuid="2ecf380f-d25b-4568-85f9-e11984c13958"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="175" width="67" height="9" uuid="024ef4cd-476c-4aca-b85c-4fb3af85c78c"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_12}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="184" width="67" height="10" uuid="2102536e-7ec1-484f-afbd-0d3411eb7d2d"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="175" width="67" height="9" uuid="2f51ecf9-512a-4539-9113-56e8a9a89578"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_13}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="237" width="65" height="18" uuid="896c007b-b877-49cb-a21a-230ea221e9f7"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="208" width="36" height="6" uuid="65981dfc-d8b3-4fde-9d14-68c43e0c2622"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="287" width="37" height="7" uuid="5b137c86-11d5-4470-9cf6-78f1d128361d"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_13}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="465" y="266" width="29" height="7" uuid="927477e0-de30-499c-ab79-b3a9596168a8"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="201" width="40" height="6" uuid="fb6e1dd7-b7ae-4749-9351-375d124d8085"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="429" y="195" width="36" height="6" uuid="804c2ab8-420f-4acb-907a-a9f2d6315cbf"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<image>
+				<reportElement x="40" y="343" width="30" height="30" uuid="c22035d8-0482-4aa7-8604-392eb5aa54cb"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_14},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="2" y="405" width="30" height="30" uuid="9dea34f1-a479-40ca-8937-117273710f30"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_14},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="3" y="437" width="37" height="7" uuid="182c2672-84d2-4909-b1bc-3f1a7b2d5ae7"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_14}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="3" y="345" width="36" height="6" uuid="3365deb2-d278-4b76-9be3-82a44d9e745c"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="3" y="325" width="67" height="9" uuid="4555c505-41b9-476e-9997-a8a177bad085"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_14}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="334" width="67" height="10" uuid="130baeb1-12d9-44ea-a71e-b815b2ab6db3"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="358" width="36" height="6" uuid="5ef54dda-2587-4c02-885a-5cc3f4e367d4"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="387" width="65" height="18" uuid="68006780-9c65-49f9-90db-5b5627a0eb35"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="39" y="418" width="29" height="7" uuid="9e224daf-9ffc-48a2-8e30-304145f768dd"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="351" width="40" height="6" uuid="61ff1f6a-726e-49b0-8fee-a4b940723640"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="111" y="343" width="30" height="30" uuid="81bce789-4853-4b44-a006-015248afe04f"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_15},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="73" y="405" width="30" height="30" uuid="09cb6542-aeb7-4623-81ba-435e5e12ebcf"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_15},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="181" y="343" width="30" height="30" uuid="6db1f02b-ba10-42e0-823b-a02ca26bfc04"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_16},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="144" y="405" width="30" height="30" uuid="609df23c-f8ed-4469-a864-848534fecce7"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_16},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="74" y="334" width="67" height="10" uuid="e29a8529-e32a-4022-a75a-550b3b8b8640"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="351" width="40" height="6" uuid="079c6334-e25b-45e5-a4e4-91ff653a4477"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="437" width="37" height="7" uuid="9eaff28d-03b3-4be4-ac15-d0976666a778"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_15}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="325" width="67" height="9" uuid="c7563a2d-5e53-49bf-b51f-3be1e4e9b401"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_15}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="74" y="345" width="36" height="6" uuid="cae258d3-49ea-431e-b95c-bf1dea1ed73a"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="74" y="358" width="36" height="6" uuid="bdafc516-0c64-45d5-ad0c-af8d6170ecd1"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="387" width="65" height="18" uuid="2e5161f7-d4eb-443a-a2e0-6afa99e94797"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="111" y="418" width="29" height="7" uuid="8b76a709-08e3-4d85-8bf3-86bc99bbf014"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="253" y="343" width="30" height="30" uuid="a770ea81-13dd-48c4-bafd-0a6855eadbb1"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_17},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="215" y="405" width="30" height="30" uuid="5470853f-62d2-472f-8841-83e8f65201fd"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_17},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="324" y="343" width="30" height="30" uuid="99bf9372-c595-4310-a7ba-f6d024a26260"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_18},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="286" y="405" width="30" height="30" uuid="b5897d0e-ae71-4e4f-912a-fe1d99148b47"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_18},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="395" y="343" width="30" height="30" uuid="b73d9d90-b3b0-41e7-a474-93f1163a167b"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_19},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="357" y="405" width="30" height="30" uuid="574a7104-78c3-4b2b-a83d-40f0a4085d87"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_19},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="466" y="343" width="30" height="30" uuid="c0541520-9867-4406-8ebd-e94e104565c4"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_20},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="428" y="406" width="30" height="30" uuid="01b3f1a2-693c-4b92-bbba-ada8e77f9cbc"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_20},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="145" y="325" width="67" height="9" uuid="7717cc7f-997e-421d-8f08-b6ec2c80d2d3"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_16}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="351" width="40" height="6" uuid="8d0508f1-7499-4000-a605-80c518ecced6"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="358" width="36" height="6" uuid="d3f089a1-11d4-43ac-91bf-ab172deea0fb"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="387" width="65" height="18" uuid="55655d0f-b3af-4a16-8eaa-57fb15e8f905"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="145" y="345" width="36" height="6" uuid="cd8910d1-524c-4fe3-ab54-205d7692ad6c"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="145" y="334" width="67" height="10" uuid="f329867a-7116-4374-ad9d-c9b701e23f2e"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="437" width="37" height="7" uuid="cee900bf-eba6-4129-8734-e6713d2a4ee9"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_16}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="182" y="418" width="29" height="7" uuid="00567392-a5b1-4f39-8dee-1ced6b76b864"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="253" y="418" width="29" height="7" uuid="c1e99541-3e11-4c2c-89b2-909acc6c088a"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="387" width="65" height="18" uuid="541776a4-f2cc-4514-96b1-437908c2a197"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="334" width="67" height="10" uuid="45e20a54-3164-432d-a8e1-947df293bb1e"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="351" width="40" height="6" uuid="82da4a6c-1358-4519-9b38-9c1799380c7f"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="216" y="345" width="36" height="6" uuid="5c1fc936-4b17-424b-8aa9-fee93197d818"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="216" y="358" width="36" height="6" uuid="11426a12-8f56-4bd8-8a85-b0dd4d3cff2e"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="325" width="67" height="9" uuid="37256867-1821-48c6-8bb1-154c653b5637"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_17}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="437" width="37" height="7" uuid="1e4b418f-fb2c-4dc6-b7b6-560af89cfa35"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_17}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="437" width="37" height="7" uuid="99989522-28c6-4ebb-a333-663c561ebf58"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_18}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="325" width="67" height="9" uuid="cae27786-78c3-463d-bb77-74273746e2bf"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_18}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="287" y="345" width="36" height="6" uuid="eb82e390-2ba5-4850-8977-fa478100dff9"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="287" y="351" width="40" height="6" uuid="100fc3ce-6934-445c-987c-b2b44cc99572"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="358" width="36" height="6" uuid="3db822b2-1a18-428a-9ee6-34b7309e7c58"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="323" y="418" width="29" height="7" uuid="12542df3-9a28-4484-ad1e-faa360881a65"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="334" width="67" height="10" uuid="8de52b66-82da-4798-ad85-ccdb74237ac7"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="387" width="65" height="18" uuid="42759d6f-ad94-4550-b1a8-a89668866258"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="358" y="345" width="36" height="6" uuid="6f215fcf-7027-4c25-ad29-9ac0894f8065"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="358" y="351" width="40" height="6" uuid="f4080632-0515-46dd-a30d-026ecf88b68e"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="358" width="36" height="6" uuid="dc80a0d3-5871-4666-8d4a-9d0a2a13a25f"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="387" width="65" height="18" uuid="d7652629-4f2a-48c8-a61a-5f2df1f522da"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="334" width="67" height="10" uuid="bcbf8b28-80b8-4922-a10f-cb791a73e0f7"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="325" width="67" height="9" uuid="b6b28eeb-772b-4bb5-a15e-09d635bf875b"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_19}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="394" y="418" width="29" height="7" uuid="e8922769-1f65-4237-9e91-8c46b0432dbf"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="437" width="37" height="7" uuid="705e888f-2eeb-4ecd-981a-4909c7b229a2"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_19}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="465" y="418" width="29" height="7" uuid="d1a1f218-9efd-4452-a838-38c0f610b644"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="387" width="65" height="18" uuid="c83cd40b-1864-4e58-bd95-48b90ba40518"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="334" width="67" height="10" uuid="201af8e9-8bf3-493f-ac3e-660b895ecca9"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="437" width="37" height="7" uuid="8af38d1f-1967-4402-81e9-bd56cf0bdaad"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_20}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="358" width="36" height="6" uuid="257587fb-9882-4458-b59c-e666ba904455"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="429" y="345" width="36" height="6" uuid="2cfafd04-d3e1-414c-b66f-25ef8fd9ead4"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="429" y="325" width="67" height="9" uuid="01291461-7f45-4f29-a535-dd475ce982ff"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_20}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="351" width="40" height="6" uuid="f37228b4-8135-40df-9024-d88622fc383e"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="40" y="493" width="30" height="30" uuid="ab5922db-1618-4b11-a929-22a17b0ba6d0"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_21},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="2" y="555" width="30" height="30" uuid="a1c782c2-8513-48b4-85c2-ae90cd189e36"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_21},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="111" y="493" width="30" height="30" uuid="70ce61ce-0979-428a-a5ab-773aa7c9f4c8"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_22},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="73" y="555" width="30" height="30" uuid="ce8f4c9c-06da-40ce-95bb-e82ff28094a0"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_22},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="181" y="493" width="30" height="30" uuid="a4baf5b4-457b-43a6-a5d4-ce411e481e49"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_23},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="144" y="555" width="30" height="30" uuid="2a172713-fe76-4f67-8612-9640e53d9fa8"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_23},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="253" y="493" width="30" height="30" uuid="176819b5-9e83-4eb6-943e-201fe2b89a1a"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_24},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="215" y="555" width="30" height="30" uuid="4375daf3-313b-4cee-89b0-78ccafe3c587"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_24},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="324" y="493" width="30" height="30" uuid="f166282c-1af6-4281-b4ac-afd5bfb41166"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_25},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="286" y="555" width="30" height="30" uuid="a1b39b86-be6d-427b-be47-3125c9c269d1"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_25},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="395" y="493" width="30" height="30" uuid="00c7a615-490a-46bb-aa1c-14b6dea557e2"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_26},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="357" y="555" width="30" height="30" uuid="4ec6cd71-3b38-4578-af90-3ac0e062c089"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_26},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="466" y="493" width="30" height="30" uuid="64a84d67-60df-492f-ad4a-4f8f40f9e0c7"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_27},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="428" y="555" width="30" height="30" uuid="69f5f3ba-0417-482e-91df-d744eb726768"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_27},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="3" y="484" width="67" height="10" uuid="02408c2b-326c-42b1-87ea-3bfa21cdd162"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="501" width="40" height="6" uuid="32de8ef4-21f5-4523-9ab6-3f7d5e13afbe"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="587" width="37" height="7" uuid="8275150b-d630-4a3a-817d-7528829b8d3f"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_21}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="475" width="67" height="9" uuid="8170b3ef-9da7-4d43-949d-6d8010b24a65"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_21}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="3" y="495" width="36" height="6" uuid="0831fa6c-ff55-4b05-804e-baa19ec45561"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="3" y="508" width="36" height="6" uuid="cbb6a369-f8fa-4b4f-a173-e58f4d55660d"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="537" width="65" height="18" uuid="70f8adfb-cb17-4763-a354-3f0cf25d25cd"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="40" y="569" width="29" height="7" uuid="c752d66b-8d47-414a-bbdd-67418d8fa368"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="475" width="67" height="9" uuid="cb79c484-1a6d-4f8f-a1b3-96cc1789f54b"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_22}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="537" width="65" height="18" uuid="04e53773-2a35-4d8d-abc9-03c62f6b22e1"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="74" y="495" width="36" height="6" uuid="f9baeb86-98c9-4725-9ba6-4abebdc35b8e"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="74" y="587" width="37" height="7" uuid="6413e601-58fd-4236-806a-05efde2af5b2"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_22}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="501" width="40" height="6" uuid="614474f1-3674-46ed-93f5-3420aa8be4f5"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="508" width="36" height="6" uuid="ef4f4ad2-abb4-4d30-9c2e-39798e7bf577"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="484" width="67" height="10" uuid="322b88a7-8b49-4c3b-877f-6e98a39e1ee1"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="111" y="569" width="29" height="7" uuid="07445502-68fe-4d16-b60c-1cd6db356502"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="501" width="40" height="6" uuid="90253567-3251-4f92-8ce2-7f4c7ffdf978"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="182" y="569" width="29" height="7" uuid="ddaf4ed9-0ec4-4c92-8613-8a053237b757"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="484" width="67" height="10" uuid="d77fa4bb-d39c-4474-97b8-eef9298132be"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="475" width="67" height="9" uuid="67b08c45-fc8f-4572-ae31-b8de7e2032d4"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_23}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="508" width="36" height="6" uuid="c6173243-8c32-43e2-9996-c96ecc28d907"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="145" y="495" width="36" height="6" uuid="7d6fc94c-26ca-412d-b508-6537aa99ccb5"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="145" y="537" width="65" height="18" uuid="832f9132-c2c5-4a94-bbf8-45b81291e1b3"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="587" width="37" height="7" uuid="050d824a-48b8-44a8-914b-4a0799a35971"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_23}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="484" width="67" height="10" uuid="32578750-572c-4f54-bd7d-fe3d4899b619"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="216" y="495" width="36" height="6" uuid="b019d89c-e31a-4cee-ab0f-fb553357c50c"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="216" y="587" width="37" height="7" uuid="dbcc516b-1787-4c08-b522-d461612419d3"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_24}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="501" width="40" height="6" uuid="bbac8f1b-6d67-4bf5-8420-437708c98b40"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="537" width="65" height="18" uuid="963152bf-79f2-4483-be33-3809b6014390"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="253" y="569" width="29" height="7" uuid="77dd2361-5df3-4f4d-a6a8-56bc70f3abfe"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="508" width="36" height="6" uuid="9b1b2b57-648c-4a3d-acd3-d50ef7fd0788"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="475" width="67" height="9" uuid="bc9052f1-38c6-4331-bb43-db2513308355"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_24}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="484" width="67" height="10" uuid="b33847d0-90b1-47a9-acaf-5405d28ff894"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="287" y="495" width="36" height="6" uuid="6198eec9-0f6b-4d21-ba1c-3902a99190cf"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="287" y="501" width="40" height="6" uuid="8d3158a9-b6f2-48cd-9bca-54f8ba3b2a4a"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="475" width="67" height="9" uuid="30121ece-fcdb-496b-9438-3e46f5ea6fa5"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_25}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="587" width="37" height="7" uuid="a9609e6e-6275-4dd7-a5b5-e7448b59603d"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_25}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="324" y="569" width="29" height="7" uuid="3b9838d5-2ae7-4eba-bdd9-8414669cb2bb"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="537" width="65" height="18" uuid="8f2adbc0-d4f6-491e-b9d5-09f47d441454"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="508" width="36" height="6" uuid="334f3fbc-29fc-4f88-8c3e-b382c6bc1bb9"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="395" y="569" width="29" height="7" uuid="7d988e2a-6d24-4772-9b24-c9f41f58d88b"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="537" width="65" height="18" uuid="29c09e72-0671-4b71-b284-16ee6e0000c3"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="475" width="67" height="9" uuid="be93ba34-bb25-405d-a00a-aeabd096ce01"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_26}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="484" width="67" height="10" uuid="d00efb19-abc3-4abd-b4b8-bef79ca0452c"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="501" width="40" height="6" uuid="044496cb-b289-4271-821c-b00b3f3b7d48"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="587" width="37" height="7" uuid="3973ecb0-768d-40f2-ae0d-3c4cef98fc0c"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_26}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="358" y="495" width="36" height="6" uuid="8034d023-9cd9-4ce3-ae55-e0cf9764fe2f"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="358" y="508" width="36" height="6" uuid="830ad671-938c-4d9c-971c-e49fcbdd0474"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="587" width="37" height="7" uuid="8e1c8af5-a07a-4139-b2c7-85fadc1cfa6d"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_27}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="537" width="65" height="18" uuid="4b173404-ee98-4a12-b232-5487b6a9dc30"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="429" y="495" width="36" height="6" uuid="53ee5a01-3496-43bb-bb51-9c175240d30d"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="429" y="501" width="40" height="6" uuid="4d26205c-6292-4d40-8764-50f48a419a9d"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="466" y="569" width="29" height="7" uuid="4c1a534c-de10-4cad-bd70-9ca9feb72e2b"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="508" width="36" height="6" uuid="ff0d224a-3358-4d24-be3f-235dfd647019"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="475" width="67" height="9" uuid="0ffe2379-c927-4053-bab1-54119bbab254"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_27}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="484" width="67" height="10" uuid="748ec5f0-e2a1-48cb-a2ff-5ff3659dcf75"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="40" y="643" width="30" height="30" uuid="b16b677e-b5d6-457f-9504-1f7bf7b2c13d"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_28},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="2" y="705" width="30" height="30" uuid="81008012-b385-49c8-aac0-897e1df43311"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_28},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="111" y="643" width="30" height="30" uuid="410f804a-531d-4ed6-8475-7dc0818ff4ae"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_29},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="73" y="705" width="30" height="30" uuid="b42e1da5-7325-4d49-ad77-4c822a998f3f"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_29},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="182" y="643" width="30" height="30" uuid="e1ff75fa-2a73-4bfe-9495-daf41d917fd9"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_30},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="144" y="705" width="30" height="30" uuid="0a0927f8-5d00-452b-b093-a2924fd3d3d8"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_30},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="253" y="643" width="30" height="30" uuid="6650da14-f9ee-4c5a-8a85-23aa675b8f16"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_31},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="215" y="705" width="30" height="30" uuid="52fb7dd5-fdf3-4c64-85ae-466c453c4fa1"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_31},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="324" y="643" width="30" height="30" uuid="68dbe13c-1cbf-4609-9c00-c211b11373bf"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_32},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="286" y="705" width="30" height="30" uuid="6041a6f6-7a8d-4c45-af37-1f00e04d6630"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_32},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="395" y="643" width="30" height="30" uuid="c3dcfaed-6d2f-4beb-9754-9547b5c2eacb"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_33},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="357" y="705" width="30" height="30" uuid="64770714-657c-43f8-a42c-5078e30c78a1"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_33},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="466" y="643" width="30" height="30" uuid="2d76c472-4e76-480f-9944-9b1921f4277a"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_34},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="428" y="705" width="30" height="30" uuid="5cd9074b-d53a-438b-9de4-07786c5a7af6"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_34},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="3" y="625" width="67" height="9" uuid="2677c36e-a688-4a7b-8c04-90beed8285ae"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_28}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="687" width="65" height="18" uuid="7d0383b3-26fd-4599-9f20-1bbc2f5243b1"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="3" y="645" width="36" height="6" uuid="c0d2dcaf-306c-4517-aeb2-20a544150485"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="3" y="737" width="37" height="7" uuid="15dab3f3-f212-4662-b95c-4a52e05ed9bc"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_28}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="651" width="40" height="6" uuid="34ba41cd-22e1-4c89-aff3-f7ff382ac18c"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="658" width="36" height="6" uuid="8915c54a-e550-41c6-8cde-328c79a73923"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="634" width="67" height="10" uuid="3b21c1bf-fbe7-4740-b398-17efd4ce45e8"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="40" y="719" width="29" height="7" uuid="e00fcecb-2316-4f06-9160-75a1b9968c99"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="111" y="719" width="29" height="7" uuid="8fea147e-49e8-4851-a431-02d65827d33c"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="687" width="65" height="18" uuid="90395410-3696-47e6-adc7-bfe7826d96e5"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="634" width="67" height="10" uuid="c69ba754-fcf4-4b50-9312-2eade3ca9a45"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="737" width="37" height="7" uuid="cca056a5-7b98-4fac-a671-ddee8ede26c5"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_29}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="658" width="36" height="6" uuid="e0bcafe6-1308-46f0-bf8a-1d39e392a781"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="74" y="645" width="36" height="6" uuid="c8264d84-900d-416e-9ba9-9ffb7c295bb6"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="74" y="651" width="40" height="6" uuid="c2e5624c-b8ca-4b39-9b4a-d757ffe9b52d"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="625" width="67" height="9" uuid="12976372-9440-4eca-8a56-f8d031ca687a"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_29}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="651" width="40" height="6" uuid="33ab433d-659a-484c-8a7a-26b0a6872be7"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="625" width="67" height="9" uuid="f0cb528c-a6d9-45b1-ab32-5ca725fe6145"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_30}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="737" width="37" height="7" uuid="858cec9a-8ec7-4b86-be27-d4ee2ddac842"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_30}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="145" y="645" width="36" height="6" uuid="fed054cd-b8af-4532-9c55-a6b06b078033"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="145" y="687" width="65" height="18" uuid="27d86af7-d9d7-4b31-8384-1b718d8c0e98"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="182" y="719" width="29" height="7" uuid="1d6118ea-1dbe-477c-9447-9c18ae8221d0"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="658" width="36" height="6" uuid="81c6d4bc-f8df-4ac3-b1b1-770afc5e5877"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="634" width="67" height="10" uuid="1dc55708-a66a-4f5a-957f-56b0d6a539e1"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="625" width="67" height="9" uuid="848934d0-d2eb-46ca-8535-6337d0ba9e9f"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_31}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="737" width="37" height="7" uuid="0dcb1c96-6a9b-4b53-bd32-fbd71ef70c65"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_31}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="634" width="67" height="10" uuid="25b58f9b-443e-4e1a-b8d7-97dc9b681a49"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="253" y="719" width="29" height="7" uuid="64cf74b0-431e-4bda-9de8-85cbfc26a2de"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="216" y="645" width="36" height="6" uuid="1554c55a-4087-4499-b7df-d0cd0ffbf37f"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="216" y="687" width="65" height="18" uuid="a3dcea8b-f6b4-4160-b6e9-7e0469e28558"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="658" width="36" height="6" uuid="51048ea6-d198-48b4-b82d-40531e416031"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="651" width="40" height="6" uuid="047a8009-d19d-4f17-a622-408c890aac9e"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="287" y="645" width="36" height="6" uuid="ae453164-5638-4ce7-b206-c45e2a7d3882"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="287" y="687" width="65" height="18" uuid="12301e99-61c3-4deb-9a7f-e8c4de324921"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="737" width="37" height="7" uuid="d3f5414a-45de-4d39-9e3d-41474fc05eab"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_32}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="625" width="67" height="9" uuid="f530c4cb-87d1-49d1-bb76-669fe923289a"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_32}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="651" width="40" height="6" uuid="cf5c5063-889d-48c8-a0b5-b4483a714b4d"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="324" y="719" width="29" height="7" uuid="c19508e7-f156-4e16-9a19-f9bfbf81229e"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="634" width="67" height="10" uuid="f46a3a19-4861-49b3-979b-21b788319293"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="658" width="36" height="6" uuid="90a4f1eb-e819-4582-83a9-c8c6d9f65ec7"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="358" y="645" width="36" height="6" uuid="394aa59e-3d07-4a85-9dd7-124310edefc5"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="358" y="737" width="37" height="7" uuid="503dd36b-dbb3-46a5-9883-2068dce9debe"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_33}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="634" width="67" height="10" uuid="c86d760b-ca0b-441c-b34e-5c5064cc3bad"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="687" width="65" height="18" uuid="f59d90db-51f1-41dc-8a8e-d7d4f645c447"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="395" y="719" width="29" height="7" uuid="cbcb0136-1c56-4657-a254-e8a20456ddff"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="658" width="36" height="6" uuid="ba029cb2-2738-4618-9b4a-4f13bc36d760"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="625" width="67" height="9" uuid="de3098d3-9e72-43e3-8d5e-7a81ae028ba9"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_33}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="651" width="40" height="6" uuid="799865f0-f0d8-4c2e-9d03-339b5e808e34"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="651" width="40" height="6" uuid="fa5876c7-791a-4c5f-83d5-47e9e3aecb63"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="737" width="37" height="7" uuid="85a35ce0-2597-4db8-8009-fea05d8c8931"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_34}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="658" width="36" height="6" uuid="7c3d14c3-0654-49a6-8d4f-41a899e8fb9d"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="634" width="67" height="10" uuid="61b221ae-8487-4d17-a462-2c88eaa8db3e"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="466" y="719" width="29" height="7" uuid="c1e20aee-83c6-41b3-ba08-bab7fa3785cb"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="429" y="645" width="36" height="6" uuid="be7fd75c-ba8c-4cfd-9a9e-41223dd54c53"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="429" y="625" width="67" height="9" uuid="96f9ff68-4d6a-4503-9f5f-8144fd21375b"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_34}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="687" width="65" height="18" uuid="bde258ee-208d-40c8-8690-d3ece60a8acc"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="40" y="793" width="30" height="30" uuid="3e97c22c-5561-47d2-8205-d92474be3851"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_35},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="3" y="855" width="30" height="30" uuid="46f6be6e-f72e-4ac8-9ec2-38309153937d"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_35},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="111" y="793" width="30" height="30" uuid="d2134198-8681-485a-a4e3-79ea1b9106d0"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_36},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="74" y="855" width="30" height="30" uuid="5614a0d7-b78d-47a9-bff8-e1380cca7c6d"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_36},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="182" y="793" width="30" height="30" uuid="10515595-44bc-457a-a83b-58762c6566a5"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_37},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="145" y="855" width="30" height="30" uuid="be16fdca-c815-42ae-b2aa-79319bb8c9e5"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_37},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="253" y="793" width="30" height="30" uuid="1b1504a5-18c5-43e9-935c-f75e52c0f4f6"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_38},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="216" y="855" width="30" height="30" uuid="a95bf993-3538-4897-8191-7e6582d4c37a"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_38},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="324" y="793" width="30" height="30" uuid="5081ddaa-d1ce-4bd0-8e09-e3d720676118"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_39},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="287" y="855" width="30" height="30" uuid="c3e50428-d45d-4965-9789-8f28d1ee5582"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_39},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="395" y="793" width="30" height="30" uuid="ed906a99-5d18-49c5-a91c-255664c4f52e"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_40},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="358" y="855" width="30" height="30" uuid="2b6ff4aa-c78c-49fb-ba95-94fcc88f88b6"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_40},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="466" y="795" width="30" height="30" uuid="df2e0155-b13c-4002-be73-552072138d71"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{qrCode_41},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="428" y="855" width="30" height="30" uuid="0682777b-9202-4aa0-9af9-a5623a574b83"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(new com.google.zxing.qrcode.QRCodeWriter().encode($P{numerator_41},com.google.zxing.BarcodeFormat.QR_CODE, 300, 300, $P{map}))]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="40" y="869" width="29" height="7" uuid="c643e11e-d15a-422d-a7fd-1df52b72910b"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="837" width="65" height="18" uuid="9474e302-6224-487c-a412-5c7902bf8f0f"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="784" width="67" height="10" uuid="3685e6e4-044d-443a-a487-5add8f8eed65"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="887" width="37" height="7" uuid="264677a1-ec67-4452-8ee4-bf8592e6ce10"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_35}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="808" width="36" height="6" uuid="ec2490f0-ea2d-484a-a81f-a22e10002bce"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="3" y="795" width="36" height="6" uuid="021ae429-33d1-4d9b-8f7f-240a1a0c6f11"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="3" y="801" width="40" height="6" uuid="31d12fa0-3f28-4c7c-8fb2-92101eb3261a"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="775" width="67" height="9" uuid="369bd5c8-c7e0-47a5-9694-865930515c28"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_35}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="808" width="36" height="6" uuid="3d343c50-b35d-4014-927e-9532f443b6af"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="784" width="67" height="10" uuid="2a2bc37d-3615-4edf-a15e-c51a0e98c232"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="837" width="65" height="18" uuid="9e5dd244-8571-4c74-9a41-16df75285962"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="887" width="37" height="7" uuid="1e4be4ba-bd79-4e04-bd8a-6df0a6165ab0"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_36}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="801" width="40" height="6" uuid="652186c9-9c43-4d5f-b515-9c9fc2fac496"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="111" y="869" width="29" height="7" uuid="15c16a26-013f-4a3d-9f8a-c033a151b4b8"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="74" y="775" width="67" height="9" uuid="9a332dbc-3eba-4360-a9a1-f56a9424b18e"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_36}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="74" y="795" width="36" height="6" uuid="b43758b5-460f-44de-b9a0-96f741448879"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="145" y="775" width="67" height="9" uuid="393b3931-7c93-423e-b79e-040d404d5a0f"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_37}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="145" y="795" width="36" height="6" uuid="8933ff96-97dc-4527-9a2d-6f1100097775"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="145" y="801" width="40" height="6" uuid="d64553fd-95e8-4065-9343-4e6b6766f8b0"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="837" width="65" height="18" uuid="d96a5795-5433-4bf2-93fd-f633eb2795f5"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="182" y="869" width="29" height="7" uuid="aeb33beb-9a06-4c00-b1e0-6f3b8fb529ff"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="887" width="37" height="7" uuid="00e61ecb-538c-4b25-bb29-3d2a258f8b0a"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_37}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="784" width="67" height="10" uuid="209fcfc6-1e82-42c2-86f7-3d2a8d2bdcf9"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="808" width="36" height="6" uuid="e378c973-7956-42b9-a91b-4af4691c8b25"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="253" y="869" width="29" height="7" uuid="02435192-97ee-461e-8813-8e8e929a86cc"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="837" width="65" height="18" uuid="7309ed11-7178-4ab7-a9d9-02fde8b2bf05"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="775" width="67" height="9" uuid="f023184b-457a-4dc9-84c4-e50a4d61a81c"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_38}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="808" width="36" height="6" uuid="9c0e0116-96c6-4ae6-bd01-4d02e0a55d79"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="801" width="40" height="6" uuid="6473bee2-07ef-443c-a47b-7fbebde7c17e"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="216" y="795" width="36" height="6" uuid="1d0f4156-83f6-4103-a2d0-d453c09f5f05"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="216" y="784" width="67" height="10" uuid="373ea16f-be47-41b2-9f48-0d1318932963"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="887" width="37" height="7" uuid="9c320e8e-316a-40dc-8afe-3dc18fd7d6b7"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_38}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="324" y="869" width="29" height="7" uuid="74a74211-02e8-4dc1-84c1-6463a858b779"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="837" width="65" height="18" uuid="2cc16d5e-8aaf-4b3a-9b62-8a3c9612965b"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="775" width="67" height="9" uuid="e24501d2-e009-4225-b12f-73108d088351"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_39}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="808" width="36" height="6" uuid="1630104a-435d-4a7e-a51d-405084f0d687"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="801" width="40" height="6" uuid="193aac44-9ae1-44eb-ba01-287be787ba88"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="287" y="795" width="36" height="6" uuid="2d216894-e28c-4f90-acf8-89a2019c7233"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="287" y="784" width="67" height="10" uuid="b3331e67-4c38-431d-b812-69104c03e1a0"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="887" width="37" height="7" uuid="960ec40c-f7a6-4506-becd-cb06973062ae"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_39}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="801" width="40" height="6" uuid="ff27c96e-64c7-4ee1-97c7-8df07db51475"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="784" width="67" height="10" uuid="beacc42a-243c-4927-a0ba-e29a4e4bee24"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="808" width="36" height="6" uuid="8e338df4-8119-4a05-827d-d624342da743"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="775" width="67" height="9" uuid="35648c68-3467-40cb-96ad-b6ac94873182"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_40}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="837" width="65" height="18" uuid="2fa27807-ba9d-46f0-ba9f-f27239d9270f"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="395" y="869" width="29" height="7" uuid="436b761f-25fb-4703-8c0a-5d6fb0cfafef"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="887" width="37" height="7" uuid="f7b95be6-d949-4b49-a2ff-86a21c059dcc"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_40}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="358" y="795" width="36" height="6" uuid="8ec81a37-576c-4c75-bea1-a14767cf7235"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="429" y="775" width="67" height="9" uuid="c891d55d-2b45-4ccd-8513-73b4bb13d086"/>
+				<textElement>
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qrCode_41}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="429" y="795" width="36" height="6" uuid="aacba99e-965e-48e6-8254-b88fbd1a0da7"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="466" y="869" width="29" height="7" uuid="1f72d7d3-9fb2-4233-8a25-abc8a8ce210d"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="887" width="37" height="7" uuid="90ac6bc4-47e7-4d50-85f1-9f083f3ad5c3"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{numerator_41}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="837" width="65" height="18" uuid="a2e28313-606a-4eb5-befa-69758fed3ee1"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="801" width="40" height="6" uuid="3ea31a30-a097-4739-a3de-efea79b4c327"/>
+				<textElement>
+					<font fontName="Arial" size="4" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{client}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="784" width="67" height="10" uuid="2d0a4923-3823-43f7-987b-9004bc96e10b"/>
+				<textElement>
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="808" width="36" height="6" uuid="847ca244-9c85-423d-8750-594c4753fb8c"/>
+				<textElement>
+					<font fontName="Arial" size="5" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{number}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

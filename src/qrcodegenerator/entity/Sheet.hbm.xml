@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="qrcodegenerator.entity.Sheet" table="sheet" catalog="astra">
+        <id name="sheetId" type="java.lang.Integer">
+            <column name="sheet_id" />
+            <generator class="identity" />
+        </id>
+        <property name="totalPrint" type="java.lang.Integer">
+            <column name="total_print" length="255" not-null="true" />
+        </property>
+        <property name="lastPrinted" type="date">
+            <column name="last_printed" length="10"/>
+        </property>
+    </class>
+</hibernate-mapping>

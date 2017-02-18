@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<synth>
+    <style id="panel">
+   <object id="background" class="qrcodegenerator.utils.BackgroundPainter"/>
+   <object class="javax.swing.plaf.ColorUIResource" id="startColor">
+      <int>196</int>
+      <int>239</int>
+      <int>245</int>
+   </object>
+   <defaultsProperty key="Panel.startBackground" type="idref" value="startColor"/>
+   <object class="javax.swing.plaf.ColorUIResource" id="endColor">
+      <int>255</int>
+      <int>255</int>
+      <int>255</int>
+   </object>
+   <defaultsProperty key="Panel.endBackground" type="idref" value="endColor"/>
+   <painter method="panelBackground" idref="background"/>
+   <bind style="panel" type="region" key="Panel"/>
+   </style>
+   <style id="button">
+   <state>
+      <imagePainter method="buttonBackground" path="button.png"
+         sourceInsets="0 0 0 0 " paintCenter="true" stretch="true"/>
+      <insets top="9" left="10" bottom="9" right="12"/>
+      <font name="Aharoni" size="12"/>
+      <color type="TEXT_FOREGROUND" value="#000000"/>
+   </state>
+   <state value="MOUSE_OVER">
+      <imagePainter method="buttonBackground" path="button_over.png"
+         sourceInsets="0 0 0 0 " paintCenter="true" stretch="true"/>
+      <insets top="9" left="10" bottom="9" right="12"/>
+      <color type="TEXT_FOREGROUND" value="#FFFFFF"/>
+   </state>
+<!--   <state value="PRESSED">
+      <insets top="10" left="12" bottom="8" right="9"/>
+      <color type="TEXT_FOREGROUND" value="#FFFFFF"/>
+   </state>-->
+   <property key="Button.margin" type="insets" value="2 2 2 2"/>
+</style>
+<bind style="button" type="region" key="Button"/>
+<style id="textfield">
+    <state>
+       <font name="Aharoni" size="14"/>
+       <color value="#D2DFF2" type="BACKGROUND"/>
+       <color value="#000000" type="TEXT_FOREGROUND"/>
+    </state>
+    <imagePainter method="textFieldBorder" path="textfield.png"
+                  sourceInsets="4 6 4 6" paintCenter="false"/>
+    <insets top="4" left="6" bottom="4" right="6"/>
+  </style>
+  <bind style="textfield" type="region" key="TextField"/>
+</synth>
+

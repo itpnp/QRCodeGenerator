@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 11, 2016 8:16:12 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="qrcodegenerator.entity.Khusus" table="khusus" catalog="astra">
+        <id name="noUrut" type="java.lang.Integer">
+            <column name="no_urut" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="masterProduct" class="qrcodegenerator.entity.MasterProduct">
+            <column name="no_urut_barang"/>
+        </many-to-one>
+        <many-to-one name="area" class="qrcodegenerator.entity.Area">
+            <column name="no_urut_area" />
+        </many-to-one>
+        <many-to-one name="sheet" class="qrcodegenerator.entity.Sheet">
+            <column name="no_urut_sheet"/>
+        </many-to-one>
+        <property name="kodeUnik" type="string">
+            <column name="kode_unik" length="500" />
+        </property>
+        <property name="qrcodeNumerator" type="string">
+            <column name="qrcode_numerator" length="500" />
+        </property>
+        <property name="status" type="string">
+            <column name="status" length="100" />
+        </property>
+        <property name="tanggalCetakPertama" type="date">
+            <column name="tanggal_cetak_pertama" length="10" />
+        </property>
+        <many-to-one name="user" class="qrcodegenerator.entity.User">
+            <column name="no_urut_user"/>
+        </many-to-one>
+    </class>
+</hibernate-mapping>

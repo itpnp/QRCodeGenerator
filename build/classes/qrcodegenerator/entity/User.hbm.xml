@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 11, 2016 8:16:12 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="qrcodegenerator.entity.User" table="user" catalog="astra">
+        <id name="noUrut" type="java.lang.Integer">
+            <column name="no_urut" />
+            <generator class="identity" />
+        </id>
+        <property name="kodeUser" type="string">
+            <column name="kode_user" length="200" not-null="true" />
+        </property>
+        <property name="namaUser" type="string">
+            <column name="nama_user" length="200" not-null="true" />
+        </property>
+        <property name="username" type="string">
+            <column name="username" length="200" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="200" not-null="true" />
+        </property>
+        <property name="bagian" type="string">
+            <column name="bagian" length="200" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
